@@ -1,5 +1,14 @@
-$jumbotron-bg: #e4f1e6;
+$jumbotron-bg: #E80C7A;
 $body-bg: #fa9fb9;
+$text-color: #fff;
+
+.form-group {
+    color: #5e5e5e;
+}
+
+.pin-list {
+    font-size: 200%;
+}
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
