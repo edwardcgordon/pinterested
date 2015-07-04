@@ -14,6 +14,7 @@
     <% @pins.each do |pin| %>
       <tr class="pin-list">
         <td><%= pin.description %></td>
+        <td><%= image_tag pin.image.url(:medium) %></td>
         <td><%= link_to 'Show', pin, class: "btn btn-primary" %></td>
         <td><%= link_to 'Edit', edit_pin_path(pin), class: "btn btn-warning" %></td>
         <td><%= link_to 'Destroy', pin, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-danger" %></td>
